@@ -41,54 +41,50 @@ This AI Web Scraper is built to go beyond traditional scraping by integrating La
 git clone https://github.com/arshi9854/AI-Web-Scraper.git
 cd AI-Web-Scraper
 
-2. Install Dependencies
-bash
-Copy
-Edit
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
-3. Configure Settings
+
+### 3. Configure Settings
+```bash
 Update the config.yaml or .env file to include your API keys, proxy details, and scraping targets.
 
-4. Run the Scraper
-bash
-Copy
-Edit
+### 4. Run the Scraper
+```bash
 python main.py
 Make sure BrightData and Ollama are properly configured and running.
 
-🧠 How it Works
-Scraper Initialization: Selenium launches in headless mode.
+### 🧠 How it Works
+  Scraper Initialization: Selenium launches in headless mode.
+  
+  Proxy Assignment: BrightData rotates IPs to avoid detection.
+  
+  Page Parsing: HTML is parsed using BeautifulSoup.
+  
+  LLM Analysis: Extracted content is processed with Ollama to summarize or categorize intelligently.
+  
+  Export: Final structured data is saved locally or to a database.
 
-Proxy Assignment: BrightData rotates IPs to avoid detection.
+### 🧪 Example Use Cases
+  🛒 E-commerce Scraping: Extract products, reviews, prices
+  
+  📰 News Aggregation: Summarize articles with AI
+  
+  📊 Data Research: Collect large-scale structured information
+  
+  🔍 SEO/Competitor Analysis
 
-Page Parsing: HTML is parsed using BeautifulSoup.
 
-LLM Analysis: Extracted content is processed with Ollama to summarize or categorize intelligently.
-
-Export: Final structured data is saved locally or to a database.
-
-🧪 Example Use Cases
-🛒 E-commerce Scraping: Extract products, reviews, prices
-
-📰 News Aggregation: Summarize articles with AI
-
-📊 Data Research: Collect large-scale structured information
-
-🔍 SEO/Competitor Analysis
-
-🛡️ Disclaimer
-This project is intended for educational and ethical use only. Always check and respect the robots.txt and terms of service of the websites you scrape.
-
-💡 Future Improvements
-✅ Dockerize the application
-
-✅ Add GUI or Streamlit dashboard
-
-✅ Add multi-threaded scraping and rate limiting
-
-✅ Integrate MongoDB/PostgreSQL for storage
-
-✅ LLM prompt customization via UI
+### 💡 Future Improvements
+  ✅ Dockerize the application
+  
+  ✅ Add GUI or Streamlit dashboard
+  
+  ✅ Add multi-threaded scraping and rate limiting
+  
+  ✅ Integrate MongoDB/PostgreSQL for storage
+  
+  ✅ LLM prompt customization via UI
 
 
 
