@@ -39,3 +39,5 @@ This AI Web Scraper is built to go beyond traditional scraping by integrating La
 ```bash
 git clone https://github.com/arshi9854/AI-Web-Scraper.git
 cd AI-Web-Scraper
+
+### 2. Install Dependencies
