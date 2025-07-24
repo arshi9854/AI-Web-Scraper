@@ -39,5 +39,64 @@ This AI Web Scraper is built to go beyond traditional scraping by integrating La
 ```bash
 git clone https://github.com/arshi9854/AI-Web-Scraper.git
 cd AI-Web-Scraper
-
+```
 ### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+### 3. Configure Settings
+
+- Update the config.yaml or .env file to include your:
+
+- BrightData credentials (proxy host, port, username, password)
+
+- Ollama model and endpoint
+
+- Scraping target URLs or keywords
+
+### 4. Run the Scraper
+
+```bash
+python main.py
+```
+✅ Make sure BrightData Proxy Manager and Ollama with your selected LLM are running locally or remotely before executing.
+
+### 🧠 How It Works
+
+** Scraper Initialization: Selenium starts a headless browser session for automation.
+
+** Proxy Assignment: BrightData dynamically rotates IPs and routes requests.
+
+** Page Parsing: BeautifulSoup extracts required data from HTML.
+
+** AI Analysis: Content is passed to Ollama, which uses LLMs to summarize, categorize, or interpret results.
+
+** Data Export: Parsed results are saved as CSV/JSON or pushed to a database.
+
+### 🧪 Example Use Cases
+
+🛒 E-commerce Scraping: Products, pricing, reviews
+
+📰 News Aggregation: Summarize articles using AI
+
+📊 Data Research: Academic or business intelligence scraping
+
+🔍 SEO & Competitor Analysis: Keyword and content monitoring
+
+### 💡 Future Improvements
+
+✅ Dockerize the full stack for easier deployment
+
+✅ Add GUI or Streamlit Dashboard
+
+✅ Multi-threaded scraping and rate limiting
+
+✅ MongoDB or PostgreSQL backend support
+
+✅ Real-time scraping metrics and logging
+
+✅ Drag & drop prompt editor for LLM configurations
+
+
+
