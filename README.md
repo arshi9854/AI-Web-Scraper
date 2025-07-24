@@ -64,15 +64,15 @@ python main.py
 
 ### 🧠 How It Works
 
-** Scraper Initialization: Selenium starts a headless browser session for automation.
+1) Scraper Initialization: Selenium starts a headless browser session for automation.
 
-** Proxy Assignment: BrightData dynamically rotates IPs and routes requests.
+2) Proxy Assignment: BrightData dynamically rotates IPs and routes requests.
 
-** Page Parsing: BeautifulSoup extracts required data from HTML.
+3) Page Parsing: BeautifulSoup extracts required data from HTML.
 
-** AI Analysis: Content is passed to Ollama, which uses LLMs to summarize, categorize, or interpret results.
+4) AI Analysis: Content is passed to Ollama, which uses LLMs to summarize, categorize, or interpret results.
 
-** Data Export: Parsed results are saved as CSV/JSON or pushed to a database.
+5) Data Export: Parsed results are saved as CSV/JSON or pushed to a database.
 
 ### 🧪 Example Use Cases
 
